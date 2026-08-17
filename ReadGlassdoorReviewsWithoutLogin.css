@@ -4,7 +4,7 @@
 @author       samchiu90 (https://github.com/samchiu90) 
 ==/UserStyle== */
 
-@-moz-document url-prefix("https://www.glassdoor.com.hk/Reviews/") {
+@-moz-document regexp("^https:\/\/www\.glassdoor\.com(?:\.[a-z]{2,})?\/Reviews\/.*$") {
   div:has(#HardsellOverlay){
       display: none;
   }
