@@ -1,3 +1,9 @@
+/* ==UserStyle==
+@name         Read Glassdoor Reviews Without Login 
+@version      1.0.0 
+@author       samchiu90 (https://github.com/samchiu90) 
+==/UserStyle== */
+
 @-moz-document url-prefix("https://www.glassdoor.com.hk/Reviews/") {
   div:has(#HardsellOverlay){
       display: none;
