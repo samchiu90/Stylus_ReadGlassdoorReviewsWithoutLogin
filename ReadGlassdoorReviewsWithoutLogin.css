@@ -1,0 +1,18 @@
+@-moz-document url-prefix("https://www.glassdoor.com.hk/Reviews/") {
+  div:has(#HardsellOverlay){
+      display: none;
+  }
+  body{
+     overflow: auto !important;
+     position: unset !important;
+  }
+  *,
+  *::before,
+  *::after {
+      filter: blur(0) !important;
+      backdrop-filter: blur(0) !important;
+  }
+  div[class^='BlurredOverlay_overlay'], div[class*=' BlurredOverlay_overlay']{
+      display: none;
+  }
+}
