@@ -1,11 +1,11 @@
 /* ==UserStyle==
 @name         Read Glassdoor Reviews Without Login 
-@version      20260914.09.31
+@version      20260914.09.33
 @author       samchiu90 (https://github.com/samchiu90) 
 @namespace  ?
 ==/UserStyle== */
 
-@-moz-document regexp("^https:\/\/www\.glassdoor\.co(m?)(?:\.[a-z]{2,})?(\/\w*)?\/(Reviews|Overview|pay-and-benefits|Jobs|Interview|Location)\/?.*$") {
+@-moz-document regexp("^https:\/\/www\.glassdoor\.co(m?)(?:\.[a-z]{2,})?(\/\w*)?\/(Reviews|Overview|pay-and-benefits|Jobs|Interview|Location)?\/?.*$") {
   div:has(#HardsellOverlay){
       display: none;
   }
